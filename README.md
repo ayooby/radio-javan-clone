@@ -1,4 +1,5 @@
 #  RadioJavanDownloader
+This is just weekend project and still have got many bug.
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
@@ -65,3 +66,11 @@ The `.env` file is ignored by git keeping those secrets out of your repo.
 2. Add your config variables
 3. Follow instructions at [https://github.com/luggit/react-native-config#setup](https://github.com/luggit/react-native-config#setup)
 4. Done!
+
+
+### Screen Shot
+![image](https://user-images.githubusercontent.com/11707675/41500203-ba43de16-71a2-11e8-9d05-293d96430310.png)
+![image](https://user-images.githubusercontent.com/11707675/41500215-d8b61b7a-71a2-11e8-85a4-e86ee2e944c1.png)
+
+
+The linting rules are from JS Standard and React-Standard.  [Regular JS errors can be found with descriptions here](http://eslint.org/docs/rules/), while [React errors and descriptions can be found here](https://github.com/yannickcr/eslint-plugin-react).
