@@ -10,9 +10,14 @@ export default StyleSheet.create({
     marginTop: Metrics.doubleSection,
     height: Metrics.images.logo,
     width: Metrics.images.logo,
-    resizeMode: 'contain'
+    resizeMode: 'contain',
+    marginBottom: Metrics.baseMargin
   },
   centered: {
     alignItems: 'center'
+  },
+  flexCenter: {
+    flexDirection: 'row',
+    justifyContent: 'center'
   }
 })

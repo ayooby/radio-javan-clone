@@ -3,6 +3,11 @@ package com.radiojavandownloader;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.tanguyantoine.react.MusicControl;
+import com.zmxv.RNSound.RNSoundPackage;
+import fm.indiecast.rnaudiostreamer.RNAudioStreamerPackage;
+import com.RNFetchBlob.RNFetchBlobPackage;
+import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -22,7 +27,12 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+          new MainReactPackage(),
+            new MusicControl(),
+            new RNSoundPackage(),
+            new RNAudioStreamerPackage(),
+            new RNFetchBlobPackage(),
+            new ReactNativeConfigPackage()
       );
     }
 
